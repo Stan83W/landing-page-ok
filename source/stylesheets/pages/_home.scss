@@ -6,35 +6,19 @@
   align-items: center;
   justify-content: space-around;
   text-align: center;
-  p {
-    font-family: Helvetica, sans-serif;
-    margin-top: 1.5em;
-  }
-  a {
-    color: rgba(0,0,0,0.4);
-    font-weight: bold;
-    font-size: 16px;
-  }
 }
 .banner {
   width: 100vw;
   color: white;
   text-align: center;
   height: 100vh;
-  height: 100vh;
   background-size: cover !important;
   display: flex;
   align-items: center;
   justify-content: center;
+  h1 {
+    font-size: 50px;
+    font-family: Helvetica, sans-serif;
+  }
 }
-.banner h1 {
-  font-size: 50px;
-  font-family: Helvetica, sans-serif;
-}
-.banner p {
-  font-size: 25px;
-  font-weight: lighter;
-  color: rgb(255, 255, 255);
-  opacity: 0.6;
-  margin-bottom: 30px;
-}
+
