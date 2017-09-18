@@ -6,12 +6,45 @@
 	padding-bottom: 7.4vw;
 	z-index: 2;
 }
-.top3 {
-	padding-bottom: 13.2vw;
+.top3 img {
+	padding-bottom: 11.1vw;
+	z-index: 3;
+}
+.top4 img {
+	padding-bottom: 14.8vw;
+	z-index: 4;
+}
+.top5 img {
+	padding-bottom: 18.5vw;
+	z-index: 5;
+}
+.top6 img {
+	padding-bottom: 22.2vw;
+	z-index: 6;
+}
+.top7 img {
+	padding-bottom: 25.9vw;
+	z-index: 7;
+}
+.top8 img {
+	padding-bottom: 29.6vw;
+	z-index: 8;
 }
 .footimg img {
 	position: absolute;
 	left: 0;
 	bottom: 0;
 	margin: 0;
+}
+.hidde {
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s, opacity 0.1s linear;
+}
+.footer:hover .hidde {
+	visibility: visible;
+	opacity: 1;
+}
+.footer {
+	transition: all 2s ease;
 }
