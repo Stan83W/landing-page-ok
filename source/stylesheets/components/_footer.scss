@@ -1,11 +1,17 @@
-.top {
-	padding-bottom: 4.4vw;
-	// z-index: 1;
-	// height: 1vw;
+.top img {
+	padding-bottom: 3.7vw;
+	z-index: 1;
 }
-.top2 {
-	padding-bottom: 8.8vw;
+.top2 img {
+	padding-bottom: 7.4vw;
+	z-index: 2;
 }
 .top3 {
 	padding-bottom: 13.2vw;
+}
+.footimg img {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	margin: 0;
 }
