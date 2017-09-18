@@ -1,3 +1,22 @@
 // Import page-specific CSS files here.
 @import "home";
 @import "about";
+
+@font-face {
+  font-family: "PB";
+  src: font-url("PB.otf");
+}
+h1 {
+	font-family: "PB", Helvetica, sans-serif;
+	color: black;
+	font-size: 8.25vw;
+	position: absolute;
+	left: 2vw;
+	bottom: 0;
+	margin: 0;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	background-color: black;
+}
+body {
+	background-color: black;
+}

@@ -12,3 +12,14 @@
 @import "layouts/index";
 @import "components/index";
 @import "pages/index";
+
+@font-face {
+  font-family: "PR";
+  src: font-url("PR.otf");
+}
+body {
+	font-family: "PR", sans-serif;
+}
+.wrapper {
+	margin: 2vw;
+}
